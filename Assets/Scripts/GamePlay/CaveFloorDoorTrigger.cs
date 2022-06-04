@@ -4,33 +4,17 @@ using UnityEngine;
 
 public class CaveFloorDoorTrigger : MonoBehaviour
 {
-    public Animator doorAnimator;
-    public int hasKey = GameManager.instance.keys;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Animator FloorDoorAnimator;
+  
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (hasKey == 0)
+        if (GameManager.instance.keys == 0)
         {
-            doorAnimator.GetInteger(hasKey);
+            FloorDoorAnimator.SetInteger("numberKeyCarrying", 0);
         }
-        else if (hasKey == 1)
+        else if (GameManager.instance.keys == 1)
         {
-            doorAnimator.GetInteger(hasKey);
-        }
-        else
-        {
-            doorAnimator.GetInteger(hasKey);
-        }
+            FloorDoorAnimator.SetInteger("numberKeyCarrying", 1);
+        }      
     }
 }
