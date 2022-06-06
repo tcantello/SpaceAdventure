@@ -27,7 +27,6 @@ public class Portal : MonoBehaviour
     {
         
     }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (Vector2.Distance(transform.position, other.transform.position) > distance)
