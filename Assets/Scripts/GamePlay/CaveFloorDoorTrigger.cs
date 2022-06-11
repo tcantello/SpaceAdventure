@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CaveDoorTrigger : MonoBehaviour
+public class CaveFloorDoorTrigger : MonoBehaviour
 {
     public Animator FloorDoorAnimator;
-    public Animator CeilingDoorAnimator;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,10 +15,6 @@ public class CaveDoorTrigger : MonoBehaviour
         else if (GameManager.instance.keys == 1)
         {
             FloorDoorAnimator.SetInteger("numberKeyCarrying", 1);
-        }
-        else if (GameManager.instance.keys == 2)
-        {
-            CeilingDoorAnimator.SetInteger("numberKeyCarrying", 2);
         }
     }
 }

@@ -122,4 +122,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b053871d72bcef43a301129c90f3f04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GameEnd
