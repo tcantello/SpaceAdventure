@@ -102,6 +102,7 @@ public class PlayerController : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x, 0);
         rb.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
         jumpTimer = 0;
+        SoundManager.instance.PlaySound(1);
     }
     void ModifyPhysics()
     {
@@ -156,6 +157,7 @@ public class PlayerController : MonoBehaviour
             if (collision.tag == "FallDetector")
             {
                 GameManager.instance.lives--;
+                SoundManager.instance.PlaySound(3);
                 transform.position = respawnPoint;
             }
         }

@@ -15,6 +15,7 @@ public class CaveFloorDoorTrigger : MonoBehaviour
         else if (GameManager.instance.keys == 1)
         {
             FloorDoorAnimator.SetInteger("numberKeyCarrying", 1);
+            SoundManager.instance.PlaySound(2);
         }
     }
 }

@@ -15,6 +15,7 @@ public class CaveCeilingDoorTrigger : MonoBehaviour
         else if (GameManager.instance.keys == 2)
         {
             CeilingDoorAnimator.SetInteger("numberKeyCarrying", 1);
+            SoundManager.instance.PlaySound(2);
         }
     }
 }

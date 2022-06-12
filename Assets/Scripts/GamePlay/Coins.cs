@@ -7,7 +7,7 @@ public class Coins : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -19,6 +19,7 @@ public class Coins : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         GameManager.instance.coins++;
+        SoundManager.instance.PlaySound(0);
         Destroy(gameObject);
     }
 }
