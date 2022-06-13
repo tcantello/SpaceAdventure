@@ -16,6 +16,7 @@ TagManager:
   - Portal Entry
   - Portal Exit
   - Key
+  - Rolling Rock
   layers:
   - Default
   - TransparentFX
@@ -33,7 +34,7 @@ TagManager:
   - Portal Entry
   - Portal Exit
   - Key
-  - 
+  - Rolling Rock
   - 
   - 
   - 
