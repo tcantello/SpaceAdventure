@@ -17,6 +17,7 @@ TagManager:
   - Portal Exit
   - Key
   - Rolling Rock
+  - Chest
   layers:
   - Default
   - TransparentFX
@@ -35,7 +36,7 @@ TagManager:
   - Portal Exit
   - Key
   - Rolling Rock
-  - 
+  - Chest
   - 
   - 
   - 
