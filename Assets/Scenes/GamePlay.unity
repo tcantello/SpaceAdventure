@@ -4365,15 +4365,15 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 04ab65b8e82c37946978d64021564926, type: 3}
     - target: {fileID: 47926550765112137, guid: d1d807f9a7c268c4b8f2eee0fb774ce0, type: 3}
       propertyPath: m_Color.b
-      value: 0.6718037
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 47926550765112137, guid: d1d807f9a7c268c4b8f2eee0fb774ce0, type: 3}
       propertyPath: m_Color.g
-      value: 0.6127626
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 47926550765112137, guid: d1d807f9a7c268c4b8f2eee0fb774ce0, type: 3}
       propertyPath: m_Color.r
-      value: 0.9622642
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 47926550765112137, guid: d1d807f9a7c268c4b8f2eee0fb774ce0, type: 3}
       propertyPath: m_WasSpriteAssigned
@@ -4872,15 +4872,15 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 04ab65b8e82c37946978d64021564926, type: 3}
     - target: {fileID: 47926550765112137, guid: d1d807f9a7c268c4b8f2eee0fb774ce0, type: 3}
       propertyPath: m_Color.b
-      value: 0.6718037
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 47926550765112137, guid: d1d807f9a7c268c4b8f2eee0fb774ce0, type: 3}
       propertyPath: m_Color.g
-      value: 0.6127626
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 47926550765112137, guid: d1d807f9a7c268c4b8f2eee0fb774ce0, type: 3}
       propertyPath: m_Color.r
-      value: 0.9622642
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 47926550765112137, guid: d1d807f9a7c268c4b8f2eee0fb774ce0, type: 3}
       propertyPath: m_WasSpriteAssigned
@@ -8990,7 +8990,7 @@ PrefabInstance:
     - target: {fileID: 5219601621433268432, guid: e4966c42aec512947ad433d6669f7af0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ca5f9003d85586d4d96ea25bf9f6bb44, type: 2}
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 5219601621433268433, guid: e4966c42aec512947ad433d6669f7af0, type: 3}
       propertyPath: m_RootOrder
       value: 10
