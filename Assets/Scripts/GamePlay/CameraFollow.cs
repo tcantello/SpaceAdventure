@@ -10,7 +10,7 @@ public class CameraFollow : MonoBehaviour
     private Rigidbody2D rb;
     
     [Header("Camera Spped and threshold")]
-    public float speed = 3f;
+    public float speed = 5f;
     private Vector2 threshold;
     
 
@@ -54,6 +54,6 @@ public class CameraFollow : MonoBehaviour
     {
         Gizmos.color = Color.blue;
         Vector2 border = CalculateThreshold();
-        Gizmos.DrawWireCube(transform.position, new Vector3(border.x * 3, border.y * 2, 1));
+        Gizmos.DrawWireCube(transform.position, new Vector3(border.x * 2, border.y * 2, 1));
     }
 }

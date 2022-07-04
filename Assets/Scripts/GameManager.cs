@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 
     public int lives = 3;
     public int health = 100;
-    public int score;
+    public int score = 0;
     public int coins;
     public int keys;
 
