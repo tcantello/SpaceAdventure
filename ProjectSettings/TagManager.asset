@@ -18,6 +18,7 @@ TagManager:
   - Key
   - Rolling Rock
   - Chest
+  - Falling Rock
   layers:
   - Default
   - TransparentFX
@@ -37,7 +38,7 @@ TagManager:
   - Key
   - Rolling Rock
   - Chest
-  - 
+  - Falling Rock
   - 
   - 
   - 

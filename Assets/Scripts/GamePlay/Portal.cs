@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Portal : MonoBehaviour
@@ -20,12 +18,6 @@ public class Portal : MonoBehaviour
         {
             destination = GameObject.FindGameObjectWithTag("Portal Exit").GetComponent<Transform>();
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
     private void OnTriggerEnter2D(Collider2D other)
     {

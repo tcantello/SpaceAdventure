@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -150,11 +147,11 @@ public class PlayerController : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D gameObject)
     {
         if (GameManager.instance.lives > 0)
         {
-            if (collision.tag == "FallDetector")
+            if (gameObject.CompareTag("FallDetector"))
             {
                 GameManager.instance.lives--;
                 SoundManager.instance.PlaySound(3);
