@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameEnd.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/GameFlag.unity
+    guid: 9d53681f47a78ac48962cf1878c0fbc4
   m_configObjects: {}

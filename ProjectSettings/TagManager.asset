@@ -19,6 +19,7 @@ TagManager:
   - Rolling Rock
   - Chest
   - Falling Rock
+  - Flag
   layers:
   - Default
   - TransparentFX
