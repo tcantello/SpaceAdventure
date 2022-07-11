@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FallingRock : MonoBehaviour
+public class FallingRock1 : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
