@@ -20,11 +20,12 @@ TagManager:
   - Chest
   - Falling Rock
   - Flag
+  - Background
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Background
   - Water
   - UI
   - Player

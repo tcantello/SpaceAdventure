@@ -112,7 +112,9 @@ MonoBehaviour:
   onGround: 0
   groundLength: 0.5
   colliderOffset: {x: 0.37, y: 0, z: 0}
+  respawnPoint: {x: 0, y: 0, z: 0}
   fallDetector: {fileID: 0}
+  sceneName: 
 --- !u!50 &9175250071698561390
 Rigidbody2D:
   serializedVersion: 4
