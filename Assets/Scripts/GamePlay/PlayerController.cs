@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
     {
         onGround = Physics2D.Raycast(transform.position + colliderOffset, Vector2.down, groundLength, groundLayer) || Physics2D.Raycast(transform.position - colliderOffset, Vector2.down, groundLength, groundLayer);
 
+        
         if (Input.GetButtonDown("Jump"))
         {
             jumpTimer = Time.time + jumpDelay;
@@ -147,6 +148,7 @@ public class PlayerController : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
     private void OnTriggerEnter2D(Collider2D gameObject)
     {
         if (GameManager.instance.lives > 0)

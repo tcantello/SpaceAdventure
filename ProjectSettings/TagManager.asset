@@ -16,12 +16,13 @@ TagManager:
   - Portal Exit
   - Key
   - Rolling Rock
-  - Chest
   - Falling Rock
   - Flag
   - Background
   - Small Crystal
   - Medium Crystal
+  - Ladder
+  - Box
   layers:
   - Default
   - TransparentFX
@@ -42,7 +43,7 @@ TagManager:
   - Rolling Rock
   - Chest
   - Falling Rock
-  - 
+  - Ladder
   - 
   - 
   - 
