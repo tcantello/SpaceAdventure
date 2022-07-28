@@ -1,7 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
+/*
+
+Created by Toby Cantello
+Created  
+Updated 7/28/22
+
+*/
+
 using UnityEngine;
-using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
 public class PlayAgain : MonoBehaviour
@@ -15,6 +20,6 @@ public class PlayAgain : MonoBehaviour
         GameManager.instance.health = 100;
         GameManager.instance.score = 0;
         GameManager.instance.crystal = 0;
-        GameManager.instance.keys = 0;
+        GameManager.instance.boxes = 0;
     }
 }
