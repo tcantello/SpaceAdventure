@@ -11,6 +11,9 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Animator")]
+    Animator astroAnim;
+
     [Header("Horizontal Movemnet")]
     public float moveSpeed = 10f;
     public Vector2 direction;
@@ -47,6 +50,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         respawnPoint = transform.position;
+        astroAnim = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -61,6 +65,9 @@ public class PlayerController : MonoBehaviour
         }
 
         direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+        astroAnim.SetFloat("speed", Mathf.Abs(direction.x));
+        astroAnim.SetFloat("jump", Mathf.Abs(direction.y));
 
         fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
 
